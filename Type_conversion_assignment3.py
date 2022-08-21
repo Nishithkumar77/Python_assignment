@@ -51,6 +51,6 @@ print("Octal to Binary", d, ":", bin(d))
 
 num1 = 25
 num2 = 39
-sum = (oct(num1)+hex(num2))
+sum = (bin(num1)+bin(num2))
 print("Sum is: ", sum)
 print("Binary", sum, ":", bin(sum,2))
