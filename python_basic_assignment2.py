@@ -68,4 +68,4 @@ store date and time, then display date and time in proper format (like: 13-8-202
 import datetime
 now = datetime.datetime.now()
 print ("Current date and time : ")
-print (now.strftime("%Y-%m-%d %H:%M"))
+print (now.strftime("%Y-%m-%d %H:%M %p"))
