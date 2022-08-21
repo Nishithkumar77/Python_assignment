@@ -1,10 +1,11 @@
-
+import sys                    # Q1
+print(sys.version)
 
 print("Hello Python")         # Q2
 
 print("Hello \nPython")       # Q5
 
-print("MySirG")               # Q6
+print('\'"MySirG\")           # Q6
 print("Teacher's Day")        # Q7
 
 
