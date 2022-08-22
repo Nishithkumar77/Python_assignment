@@ -34,16 +34,16 @@ print(hex(num2))
 
 # Q7. Write a python script to store binary number 1100101 in a variable and print it in decimal format.
 
-b = "1100101"
-print("Binary to Decimal", b, ":", int(b, 2))
+b = 0b1100101
+print("Binary to Decimal", b, ":", b)
 
 # Q8. Write a python script to store a hexadecimal number 2F in a variable and print it in octal format.
-C = 125
+C = 0x2F
 print("Hexadecimal to Octal", C, ":", oct(C))
 
 # Q9.Write a python script to store an octal number 125 in a variable and print it in binary format.
 
-d = 125
+d = 0o125
 print("Octal to Binary", d, ":", bin(d))
 
 
@@ -52,5 +52,4 @@ print("Octal to Binary", d, ":", bin(d))
 num1 = 25
 num2 = 39
 sum = (bin(num1)+bin(num2))
-print("Sum is: ", sum)
-print("Binary", sum, ":", bin(sum,2))
+print("Binary is: ", sum)
