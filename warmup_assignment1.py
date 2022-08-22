@@ -5,9 +5,8 @@ print("Hello Python")         # Q2
 
 print("Hello \nPython")       # Q5
 
-print('\'"MySirG\")           # Q6
-print("Teacher's Day")        # Q7
-
+print("\"MySirG\"")           # Q6
+print("\"Teacher's Day\"")    # Q7
 
 x = "Nishith Kumar"           # Q8
 print(x)
