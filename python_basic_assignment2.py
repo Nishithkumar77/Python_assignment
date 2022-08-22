@@ -18,6 +18,11 @@ c = "MySirG"
 d = 5.46
 e = 3+4j
 print(a,b,c,d,e)
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
 
 # Q4.Write a python script to print the id of two variables containing the same integer values
 
@@ -68,4 +73,4 @@ store date and time, then display date and time in proper format (like: 13-8-202
 import datetime
 now = datetime.datetime.now()
 print ("Current date and time : ")
-print (now.strftime("%Y-%m-%d %H:%M %p"))
+print (now.strftime("%d-%m-Y% and %H:%M %p"))
